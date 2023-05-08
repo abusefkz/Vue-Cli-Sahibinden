@@ -1,0 +1,9 @@
+.table-select{
+    width: 300px;
+   margin-left: 35%;
+}
+.select select{
+    background-color: lightgray;
+    color: #000000;
+}
+    
