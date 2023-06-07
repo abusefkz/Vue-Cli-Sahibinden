@@ -6,4 +6,17 @@
     background-color: lightgray;
     color: #000000;
 }
-    
+.fiyatList{
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.fiyatList input{
+    width: 60px;
+    border: 3px solid lightgray;
+    outline: none;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

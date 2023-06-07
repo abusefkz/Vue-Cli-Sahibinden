@@ -13,16 +13,18 @@
         <tr @click.prevent="$emit('category-changed', kategori.id)"  v-for="kategori in categoryList" :key="kategori.id">
             <th>
               <button  style="text-decoration: none; color: black;" href="">{{ kategori.name }}</button>
-             
             </th>
-           
-        </tr>
+          </tr> 
       </tbody>
+        
     </v-table>
+
+    
   </template>
 
 <script>
    import axios from 'axios';
+   
 
    export default{
     emits:['category-changed'],
@@ -34,7 +36,8 @@
       created(){
         axios.get('http://localhost:3000/categories').then(ctgry_response => {
           this.categoryList = ctgry_response?.data || []
-        })
-      },
+        }),
+        axios.get('')  
+      }
    }
 </script>

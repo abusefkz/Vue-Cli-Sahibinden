@@ -8,7 +8,7 @@
       "year": "2007",
       "km": "330.000 ",
       "color": "Siyah",
-      "price": "745.000 TL",
+      "price": "745000",
       "id": 1
     },
     {
@@ -19,7 +19,7 @@
       "year": "2023",
       "km": "0",
       "color": "Beyaz",
-      "price": "2.500.000 TL",
+      "price": "2500000",
       "id": 2
     },
     {
@@ -30,7 +30,7 @@
       "year": "2018",
       "km": "275.000",
       "color": "Gri",
-      "price": "380.000 TL",
+      "price": "380000",
       "id": 3
     },
     {
@@ -41,7 +41,7 @@
       "year": "2016",
       "km": "276.000",
       "color": "Gri",
-      "price": "575.000 TL",
+      "price": "575000",
       "id": 4
     },
     {
@@ -52,7 +52,7 @@
       "year": "2008",
       "km": "375.000 ",
       "color": "Gri",
-      "price": "240.000 TL",
+      "price": "240000",
       "id": 5
     },
     {
@@ -63,7 +63,7 @@
       "year": "2012",
       "km": "255.000",
       "color": "Beyaz",
-      "price": "1.250.000 TL",
+      "price": "1250000",
       "id": 6
     },
     {
@@ -74,41 +74,8 @@
       "year": "2023",
       "km": "0",
       "color": "Mavi",
-      "price": "2.500.000 TL",
+      "price": "2500000",
       "id": 7
-    },
-    {
-      "categoryId": 1,
-      "marka": "Ranger Rover",
-      "model": "Evoque",
-      "title": "Kötü Bir Araba",
-      "year": "2016",
-      "km": "215.000 ",
-      "color": "Bordo",
-      "price": "105.000 TL",
-      "id": 8
-    },
-    {
-      "categoryId": 1,
-      "marka": "Audi",
-      "model": "Q7",
-      "title": "Yurt Dışından Geldi 2 Sene Kullanabilirsiniz",
-      "year": "2018",
-      "km": "225.000 ",
-      "color": "Beyaz",
-      "price": "1.500.000 TL",
-      "id": 9
-    },
-    {
-      "categoryId": 1,
-      "marka": "Renault",
-      "model": "Clio",
-      "title": "5 Bin Tramer Kaydı Var Harici Hatasız",
-      "year": "2014",
-      "km": "210.000",
-      "color": "Gri",
-      "price": "324.000 TL",
-      "id": 10
     }
   ],
   "home": [

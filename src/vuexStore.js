@@ -3,7 +3,7 @@ import { createStore } from "vuex";
 
 const store = createStore({
     state:{
-        kategoriler:[]
+        kategoriler:[],
     },
     mutations:{
         addCategory(state,kategoriler){
@@ -18,8 +18,10 @@ const store = createStore({
         }
     },
     getters:{
-        _saltKategori : state => state.kategoriler
+        _saltKategori : state => state.kategoriler,
+        
+       
     }
 })
 
-export default store
+export default store;

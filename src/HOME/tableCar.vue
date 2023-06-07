@@ -12,16 +12,17 @@
       <th scope="col">Fiyat</th>
     </tr>
   </thead>
+  
   <tbody>
-    <tr v-for="car in cars" :key="car.id" >
-      <th scope="row">{{ car.id }}</th>
+    <tr v-for="(car, index) in cars" :key="car.id" >
+      <th scope="row">{{ index + 1 }}</th>
       <td>{{ car.marka }}</td>
       <td>{{ car.model }}</td>
       <td>{{ car.title }}</td>
       <td>{{ car.year }}</td>
       <td>{{ car.km }}</td>
       <td>{{ car.color }}</td>
-      <td>{{ car.price }}</td>
+      <td class="fw-bold">{{ car.price }} TL </td>
     </tr>
     </tbody>
     </table>
